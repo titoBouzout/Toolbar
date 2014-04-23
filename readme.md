@@ -1,17 +1,14 @@
 # Toolbar
 
-## Description
-
 Provides some handy buttons at the end of the main menu using emojis simulating a toolbar. For Sublime Text, See: http://www.sublimetext.com/
 
-For the original idea please see http://www.sublimetext.com/forum/viewtopic.php?f=2&t=15850#p59615
+For the original idea please refer to http://www.sublimetext.com/forum/viewtopic.php?f=2&t=15850#p59615
 
 ## Installation
 
-Install with Package Control 2. See: https://sublime.wbond.net/installation
+Install with Package Control 2: https://sublime.wbond.net/installation
 
 ## Buttons
-
 
   * ✙ - New file
   * ✔ - Save file
