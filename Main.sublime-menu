@@ -2,8 +2,8 @@
 	{"id": "help"},
 	{"id": "folders"},
 
-	{ "command": "new_file", "caption": "✙" },
-	{ "command": "save", "caption": "✔" },
+	{ "command": "new_file", "caption": "📄" },
+	{ "command": "save", "caption": "💾" },
 	{ "command": "clone_file", "caption": "♋" },
 
 	{ "caption": "-" },
@@ -62,6 +62,9 @@
     }
 },
 
+
+{ "caption": "-" },
+{ "command": "open_file", "caption":"🔧", "args": {"file": "${packages}/User/Preferences.sublime-settings"}},
 
 { "caption": "-" },
 

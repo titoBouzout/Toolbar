@@ -43,6 +43,10 @@ Oh, well, I give meanings to a very short list of emojis, if you think it can be
 
 ### © ® ღ † ‼ ⁉ ™ ↔ ↕ ↖ ↗ ↘ ↙ ↩ ↪ ↶ ↷ ⇒ ⋆ ⌘ ⏎ Ⓜ ▪ ▫ ▶ ◀ ☀ ☁ ☂ ☃ ★ ☆ ☎ ☑ ☜ ☝ ☟ ☠ ☢ ☣ ☤ ☥ ☫ ☬ ☭ ☮ ☯ ☸ ☹ ☺ ☻ ☾ ♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓ ♔ ♕ ♖ ♛ ♜ ♠ ♡ ♢ ♣ ♤ ♥ ♦ ♧ ♨ ♪ ♫ ♻ ⚘ ⛎ ✂ ✆ ✈ ✉ ✌ ✏ ✒ ✔ ✖ ✞ ✟ ✠ ✧ ✪ ✫ ✬ ✭ ✮ ✯ ✰ ✳ ✴ ✵ ✼ ❀ ❁ ❂ ❃ ❄ ❅ ❆ ❇ ❤ ❥ ❦ ➡ ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➲ ➳ ➵ ➷ ➸ ➹ ➺ ➻ ➼ ➽ ⤴ ⤵ 〰 〽 ツ ㊗ ㊙
 
+## Windows Emojis
+
+On Windows 7 you may need to download the font "Segoe UI symbol" ( http://support.microsoft.com/kb/2729094 ) and then change your Windows Font from "Segoe UI" to "Segoe UI Symbol"
+
 ## Source-code
 
 https://github.com/SublimeText/Toolbar
