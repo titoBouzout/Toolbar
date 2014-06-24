@@ -6,38 +6,19 @@
 	{ "command": "save", "caption": "💾" },
 	{ "command": "clone_file", "caption": "♋" },
 
-	{ "caption": "-" },
-
 	{"command": "jump_back","caption": "◀"},
 	{"command": "jump_forward", "caption": "▶"},
 
-	{ "caption": "-" },
-
-	{ "command": "undo", "caption":"↙"},
-	{ "command": "redo_or_repeat", "caption":"↗" },
-
-	{ "caption": "-" },
 
 { "command": "expand_selection", "args": {"to": "scope"}, "caption": "♒" },
 
-	{ "caption": "-" },
 
 { "command": "fold", "caption": "〽" },
 { "command": "unfold_all", "caption": "〰" },
 
-{ "caption": "-" },
-{ "caption": "♡" , "command": "show_overlay", "args": {"overlay": "goto", "show_files": true}
-
-            },
-{ "caption": "-" },
 
 { "command": "toggle_bookmark", "caption": "★" },
 { "command": "next_bookmark", "caption": "➽" },
-
-{ "caption": "-" },
-{ "command": "sort_lines", "args": {"case_sensitive": false},"caption": "↕" },
-
-{ "caption": "-" },
 
 /* two columns*/
 {
@@ -62,15 +43,8 @@
     }
 },
 
-
-{ "caption": "-" },
-{ "command": "open_file", "caption":"🔧", "args": {"file": "${packages}/User/Preferences.sublime-settings"}},
-
-{ "caption": "-" },
-
-{ "command": "open_url", "caption":"☻", "args": {"url": "http://www.sublimetext.com/forum/"}},
-{ "command": "open_url", "caption":"☁", "args": {"url": "https://sublime.wbond.net/"}},
 { "command": "open_url", "caption":"☢", "args": {"url": "https://github.com/SublimeText/Issues/issues"}},
+{ "command": "open_file", "caption":"🔧", "args": {"file": "${packages}/User/Preferences.sublime-settings"}},
 
 ]
 
