@@ -8,6 +8,10 @@ For the original idea please refer to http://www.sublimetext.com/forum/viewtopic
 
 Install with Package Control 2: https://sublime.wbond.net/installation
 
+## Preview
+
+![](http://i.imgur.com/ypF57Xw.png)
+
 ## Buttons
 
   * ✙ - New file
