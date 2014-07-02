@@ -1,71 +1,81 @@
 [
-	{"id": "help"},
-	{"id": "folders"},
-
-	{ "command": "new_file", "caption": "📄" },
-	{ "command": "save", "caption": "💾" },
-	{ "command": "clone_file", "caption": "♋" },
-
-	{"command": "jump_back","caption": "◀"},
-	{"command": "jump_forward", "caption": "▶"},
-
-
-{ "command": "expand_selection", "args": {"to": "scope"}, "caption": "♒" },
-
-
-{ "command": "fold", "caption": "〽" },
-{ "command": "unfold_all", "caption": "〰" },
-
-
-{ "command": "toggle_bookmark", "caption": "★" },
-{ "command": "next_bookmark", "caption": "➽" },
-
-/* two columns*/
-{
-    "caption": "♊",
-    "command": "set_layout",
-    "args":
     {
-        "cols": [0.0, 0.5, 1.0],
-        "rows": [0.0, 1.0],
-        "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-    }
-},
-/* one column */
-{
-    "caption": "♈",
-    "command": "set_layout",
-    "args":
+        "id": "help"
+    },
     {
-        "cols": [0.0, 1.0],
-        "rows": [0.0, 1.0],
-        "cells": [[0, 0, 1, 1]]
+        "id": "folders"
+    },
+
+    {
+        "command": "new_file",
+        "caption": ""},
+    {
+        "command": "save",
+        "caption": ""},
+    {
+        "command": "clone_file",
+        "caption": "♋"},
+    {
+        "command": "jump_back",
+        "caption": "◀"},
+    {
+        "command": "jump_forward",
+        "caption": "▶"},
+    {
+        "command": "expand_selection",
+        "args": {
+            "to": "scope"
+        },
+        "caption": "♒"
+    },
+    {
+        "command": "fold",
+        "caption": "〽"
+    },
+    {
+        "command": "unfold_all",
+        "caption": "〰"
+    },
+    {
+        "command": "toggle_bookmark",
+        "caption": "★"
+    },
+    {
+        "command": "next_bookmark",
+        "caption": "➽"
+    },
+    {
+        "caption": "♊",
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+    {
+        "caption": "♈",
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+        }
+    },
+    {
+        "command": "open_url",
+        "caption":"☢",
+        "args": {
+            "url": "https://github.com/SublimeText/Issues/issues"
+        }
+    },
+    {
+        "command": "open_file",
+        "caption":"",
+        "args": {
+            "file": "${packages}/User/Preferences.sublime-settings"
+        }
     }
-},
-
-{ "command": "open_url", "caption":"☢", "args": {"url": "https://github.com/SublimeText/Issues/issues"}},
-{ "command": "open_file", "caption":"🔧", "args": {"file": "${packages}/User/Preferences.sublime-settings"}},
-
 ]
-
-/*
-
-Test
-
-{ "caption":"# © ® ღ † ‼ ⁉ ™ ↔ ↕ ↖ ↗ ↘ ↙ ↩ ↪ ↶ ↷ ⇒ ⋆ ⌘ ⏎ Ⓜ ▪ ▫ ▶ ◀ ☀ ☁"},
-{ "caption":"☂ ☃ ★ ☆ ☎ ☑ ☜ ☝ ☟ ☠ ☢ ☣ ☤ ☥ ☫ ☬ ☭ ☮ ☯ ☸ ☹ ☺ ☻ ☾ ♈ ♉ ♊"},
-{ "caption":"♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓ ♔ ♕ ♖ ♛ ♜ ♠ ♡ ♢ ♣ ♤ ♥ ♦ ♧ ♨ ♪ ♫ ♻ ⚘"},
-{ "caption":"⛎ ✂ ✆ ✈ ✉ ✌ ✏ ✒ ✔ ✖  ✞ ✟ ✠ ✧ ✪ ✫ ✬ ✭ ✮ ✯ ✰ ✳ ✴ ✵ ✼"},
-{ "caption":"❀ ❁ ❂ ❃ ❄ ❅ ❆ ❇ ❤ ❥ ❦ ➡ ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➲ ➳ ➵ ➷ ➸ ➹"},
-{ "caption":"➺ ➻ ➼ ➽ ⤴ ⤵ 〰 〽 ツ ㊗ ㊙"},
-
-Plain test, I mean Text
-
-# © ® ღ † ‼ ⁉ ™ ↔ ↕ ↖ ↗ ↘ ↙ ↩ ↪ ↶ ↷ ⇒ ⋆ ⌘ ⏎ Ⓜ ▪ ▫ ▶ ◀ ☀ ☁
-☂ ☃ ★ ☆ ☎ ☑ ☜ ☝ ☟ ☠ ☢ ☣ ☤ ☥ ☫ ☬ ☭ ☮ ☯ ☸ ☹ ☺ ☻ ☾ ♈ ♉ ♊
-♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓ ♔ ♕ ♖ ♛ ♜ ♠ ♡ ♢ ♣ ♤ ♥ ♦ ♧ ♨ ♪ ♫ ♻ ⚘
-⛎ ✂ ✆ ✈ ✉ ✌ ✏ ✒ ✔ ✖  ✞ ✟ ✠ ✧ ✪ ✫ ✬ ✭ ✮ ✯ ✰ ✳ ✴ ✵ ✼
-❀ ❁ ❂ ❃ ❄ ❅ ❆ ❇ ❤ ❥ ❦ ➡ ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➲ ➳ ➵ ➷ ➸ ➹
-➺ ➻ ➼ ➽ ⤴ ⤵ 〰 〽 ツ ㊗ ㊙
-
-*/
