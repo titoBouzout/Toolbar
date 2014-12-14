@@ -32,7 +32,7 @@ Install with Package Control 2: https://sublime.wbond.net/installation
   * ♊ - Set layout to two columns
   * ♈ - Set layout to one column
   * -
-  * ☢ - Report a bug in Sublime Text ( https://github.com/SublimeText/Issues/issues )
+  * ☢ - Report a bug in Sublime Text ( https://github.com/SublimeTextBugs/Issues/issues )
   * 🔧 - Open Preferences
 
 Oh, well, I give meanings to a very short list of emojis, if you think it can be improved or wish to change/add/remove something, please feel free to suggest it. The complete list of emojis that rendered something in Windows 7, are as follows:
@@ -45,4 +45,4 @@ On Windows 7 you may need to download the font "Segoe UI symbol" ( http://suppor
 
 ## Source-code
 
-https://github.com/SublimeText/Toolbar
+https://github.com/titoBouzout/Toolbar
