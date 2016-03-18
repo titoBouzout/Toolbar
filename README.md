@@ -6,7 +6,8 @@ For the original idea please refer to http://www.sublimetext.com/forum/viewtopic
 
 ## Installation
 
-Install with Package Control 2: https://sublime.wbond.net/installation
+Download or clone the contents of this repository to a folder named exactly as the package name into the Packages/ folder of ST.
+
 
 ## Preview
 
